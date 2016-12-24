@@ -1,2 +1,0 @@
-# ZohoEnrich
-Assignments
