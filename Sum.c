@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(void) {
-    int num=556, n, digit, sum=0, count=0;
+    int num, n, digit, sum=0, count=0;
     printf("Enter the numbers");
     scanf("%d",&num);
     if(num==0)
