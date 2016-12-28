@@ -6,12 +6,14 @@ int main() {
     scanf("%d",&num);
     printf("Enter m:\n");
     scanf("%d",&m);
-    if(m>5 || m<1 || num<10000 || num>99999)
+    if(m<1 || num<10000 || num>99999)
     {
         printf("Wrong Input!!!\n");
     }
     else
     {
+	m=m%5;
+	m=5-m;
         for(i=1;i<=m;i++)
             {
                 rem=num%10;
