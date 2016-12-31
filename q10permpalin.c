@@ -28,20 +28,12 @@ int main(void)
             }
             if(odd==2)
             {
-                flag=1;
-                break;
+                printf("\nFALSE");
+		return 0;
             }
         }
     }
-    if(flag==0)
-    {
-        printf("\nTRUE");
-    }
-    else
-    {
-        printf("\nFALSE");
-    }
-    
-	return 0;
+    printf("\nTRUE");
+    return 0;
 }
 
