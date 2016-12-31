@@ -3,7 +3,7 @@
 
 int main(void) 
 {
-    int n,i,j,count,odd=0,flag=0;
+    int n,i,j,count,odd=0;
     char str[20],ch;
     printf("Enter the string\n");
     scanf("%s",str);
