@@ -1,3 +1,12 @@
+/*Question 5: Check whether the given positive number is a palindrome number or not 
+
+Ex 
+Input : 12 
+Output : NO 
+
+Input: 3223 
+Output: YES*/
+
 #include <stdio.h>
 
 int main(void) {
