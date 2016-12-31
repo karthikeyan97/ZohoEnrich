@@ -23,7 +23,7 @@ int main()
             }
         }
     }
-    printf("%d\n",count);
+    printf("No of occurence of %d is %d\n",key,count);
     
 	return 0;
 }
