@@ -1,11 +1,5 @@
-/* Construct a new string by removing vowels, symbols and spaces from the given string 
+/*check whether the given string is palindrome*/
 
-Example 
-Input : This is my city. 
-
-Output: 
-Given String : This is my city. 
-Derived String : Thssmycty*/
 
 #include <stdio.h>
 #include<string.h>
