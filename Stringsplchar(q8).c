@@ -1,3 +1,12 @@
+/* Construct a new string by removing vowels, symbols and spaces from the given string 
+
+Example 
+Input : This is my city. 
+
+Output: 
+Given String : This is my city. 
+Derived String : Thssmycty*/
+
 #include <stdio.h>
 #include<string.h>
 
