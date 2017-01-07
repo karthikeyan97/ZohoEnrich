@@ -1,3 +1,6 @@
+/*Learn the steps behind "Finding the determinant of a matrix using Gauss Jordan Elimination method". 
+*/
+
 #include <stdio.h>
 
 int main(void)
