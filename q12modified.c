@@ -16,25 +16,21 @@ void printArray(int** ar,int row,int col)
 
 void check(int *p1, int *p2,int n)
 {
-    if(*p1==-1)
+    if(*p1>=0)
     {
-        *p1=n-1;
+        *p1 = *p1 % n;
     }
-    if(*p1==n)
+    else
     {
-        *p1=0;
+        *p1 = n-1;
     }
-    if(*p1==n+1)
+    if(*p2>=0)
     {
-        *p1=1;
+        *p2 = *p2 % n;
     }
-    if(*p2==-1)
+    else
     {
-        *p2=n-1;
-    }
-    if(*p2==n)
-    {
-        *p2=0;
+        *p2 = n-1;
     }
 }
 
