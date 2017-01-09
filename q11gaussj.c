@@ -29,12 +29,8 @@ int main(void)
                 a[i][j]=a[i][j]-(x*a[k][j]);
             }
         }
-    }
-    
-    for(i=0;i<m;i++)
-    {
-        det=det*a[i][i];
-    }
+		det=det*a[i][i];
+	}
     
     /*for(i=0;i<m;i++)
     {
