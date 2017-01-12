@@ -39,4 +39,6 @@ int main()
         }
     }
     printf("\nThe next prime number is: %d\n",next_prime);
+    
+    return 0;
 }
