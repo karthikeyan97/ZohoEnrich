@@ -18,12 +18,12 @@ int main()
     int *a;
     printf("Enter the number:\n");
     scanf("%d",&n);
-    a = (int*)malloc(((n+n/2)+1)*sizeof(int)) ;
-    for(i=0;i<n+n/2;i++)
+    a = (int*)malloc(((2*n)+1)*sizeof(int)) ;
+    for(i=0;i<2*n;i++)
     {
         a[i]=i;
     }
-    for(i=2;i<n+n/2;i++)
+    for(i=2;i<2*n;i++)
     {
         if(a[i]>0)
         {
@@ -32,7 +32,7 @@ int main()
                 next_prime = i;
                 break;
             }
-            for(j=a[i]*2;j<n+n/2;j=j+a[i])
+            for(j=a[i]*2;j<2*n;j=j+a[i])
             {
                 a[j]=-1;
             }
